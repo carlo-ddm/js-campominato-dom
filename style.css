@@ -1,0 +1,45 @@
+header,footer {
+  height: 10vh;
+}
+
+main {
+  height: 80vh;
+}
+
+.cdd-border {
+  border: 1px solid black;
+}
+
+.cdd-color {
+  background-color: aliceblue;
+}
+
+.cdd-grid {
+  width: 500px;
+  height: 500px;
+}
+
+.cdd-square {
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: rgb(8, 174, 174);
+}
+
+.cdd-square100 {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.cdd-square81 {
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.cdd-square49 {
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
