@@ -48,7 +48,7 @@ function numberRandom(numberSquare) {
 // console.log(numberRandom(10));
 
 
-const bombs = [1];
+const bombs = [];
 function totNumberRandom (bombNumber, numberSquare) {
   let bomba;
   for (let i = 0; i < bombNumber; i++) {
