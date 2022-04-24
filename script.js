@@ -40,6 +40,7 @@ function generatoreGioco(numberSquare) {
   main.append(grid);
 }
 
+// FUNZIONE 3
 function numberRandom(numberSquare) {
   const estrazione = Math.ceil(Math.random() * numberSquare);
   return estrazione;
@@ -47,12 +48,12 @@ function numberRandom(numberSquare) {
 
 // console.log(numberRandom(10));
 
-
+// FUNZIONE 4
 const bombs = [];
 function totNumberRandom (bombNumber, numberSquare) {
   let bomba;
   for (let i = 0; i < bombNumber; i++) {
-    const flag = false;
+    let flag = false;
     
     while(!flag){ 
       bomba = numberRandom(numberSquare);
@@ -69,6 +70,6 @@ function totNumberRandom (bombNumber, numberSquare) {
   return bomba; // return si scrive solo unicamente al'interno della funzione NO in cicli e in if
 }
 
-console.log(totNumberRandom(20,30), bombs);
+// console.log(totNumberRandom(20,25), bombs);
 
 // in ECMA il cod è sempre a cascata tranne per la creazione di una funzione
